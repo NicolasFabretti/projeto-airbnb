@@ -64,7 +64,7 @@ export const imgSlide1: SlideItems[] = [
     notice: '4,9',
   },
 ];
-
+//data
 export const imgSlide2 = [
   {
     img: '/assets/images/image.png',
