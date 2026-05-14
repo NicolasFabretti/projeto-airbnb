@@ -58,7 +58,7 @@ function Slider({ data }: { data: SlideItems[] }) {
         745: { slidesPerView: 4 },
         950: { slidesPerView: 5 },
         1130: { slidesPerView: 6 },
-        1350: { slidesPerView: 7 },
+        1280: { slidesPerView: 7 },
       }}
       className="w-full max-w-7xl mx-auto mt-25"
     >
@@ -117,15 +117,19 @@ import { imgSlide1 } from './datas';
 import { imgSlide2 } from './datas';
 import { imgSlide3 } from './datas';
 import { imgSlide4 } from './datas';
+import { imgSlide5 } from './datas';
+import { imgSlide6 } from './datas';
 
 //SLIDE DAS ACOMODAÇÕES
 export function Slides() {
   return (
-    <article className="w-full mx-auto">
+    <article className="px-10 mt-50">
       <Slider data={imgSlide1} />
       <Slider data={imgSlide2} />
       <Slider data={imgSlide3} />
       <Slider data={imgSlide4} />
+      <Slider data={imgSlide5} />
+      <Slider data={imgSlide6} />
     </article>
   );
 }
